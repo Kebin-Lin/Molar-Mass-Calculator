@@ -67,6 +67,6 @@ while True:
         if inputCompound.lower() == 'quit':
             break
         outputMass = calcMass(inputCompound)
-        print(f'The molar mass of {inputCompound} is {outputMass} atomic mass units.')
+        print(f'The molar mass of {inputCompound} is {outputMass} grams per mole.')
     except:
         print("Invalid input. Please try again.")
